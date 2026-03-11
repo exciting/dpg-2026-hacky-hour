@@ -11,7 +11,7 @@ git clone https://github.com/exciting/dpg-2026-hacky-hour.git
 ## Running the tutorials
 These hands-on tutorials are designed to provide an overview of different methods implemented in the [`exciting`](https://exciting-code.org/) code and how they can be used. Due to time contraints, we do not perform the actual simulations but rather fetch results from precomputed datasets, published on [NOMAD](https://nomad-lab.eu). However, it must be noted that the commands remain mostly the same for actual exciting runs, we just refer to a 'mock' exciting-program instead of calling the actual program. It still downloads results in the exact same way as you would obtain with the actual program.
 
-In our experience, each of the tutorials takes about 15-20 minutes to complete. We therefore recommend you to focus on one notebook your choice and check the other ones at a later point. You have the opportunity to choose a notebook based on the following methods:
+In our experience, each of the tutorials takes about 15-20 minutes to complete. We therefore recommend you to focus on one notebook of your choice and check the other ones at a later point. You have the opportunity to choose a notebook based on the following methods:
 
 1. 3-in-1: Calculating ground state properties using **GGA**, **metaGGA** and **hybrid** functionals -- recommended for beginners
 2. Calculation of excited-state properties using the **G<sub>0</sub>W<sub>0</sub>** approximation
