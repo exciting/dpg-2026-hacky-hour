@@ -1,0 +1,37 @@
+<input>
+  <title>Ga2O3</title>
+  <structure speciespath=".">
+    <crystal>
+      <basevect>   2.882457027       11.61489328       0.000000000</basevect>
+      <basevect>  -2.882457027       11.61489328       0.000000000</basevect>
+      <basevect>   0.000000000       2.600503369       10.67028355</basevect>
+    </crystal>
+    <species speciesfile="Ga.xml" rmt="1.7500">
+      <atom coord="0.0000000000      0.0000000000      0.0000000000"/>
+      <atom coord="0.6822620800      0.6822620800      0.6280570400"/>
+      <atom coord="0.2511389000      0.2511389000      0.1090277600"/>
+      <atom coord="0.4311231800      0.4311231800      0.5190292800"/>
+    </species>
+    <species speciesfile="O.xml" rmt="1.5000">
+      <atom coord="0.1679453600      0.1679453600      0.8772238900"/>
+      <atom coord="0.5143167200      0.5143167200      0.7508331500"/>
+      <atom coord="0.1760095100      0.1760095100      0.4228546600"/>
+      <atom coord="0.5062525700      0.5062525700      0.2052023800"/>
+      <atom coord="0.8449338000      0.8449338000      0.5701798300"/>
+      <atom coord="0.8373282800      0.8373282800      0.0578772100"/>
+    </species>
+  </structure>
+  <groundstate
+      do="fromscratch"
+      ngridk="8 8 8"
+      xctype="GGA_PBE_SOL"
+      gmaxvr="25.0"
+      lmaxvr="12"
+      lmaxapw="12"
+      lmaxmat="12"
+      rgkmax="8"
+      outputlevel="high"
+      maxscl="50"
+      nempty="10">
+</groundstate>
+</input>
