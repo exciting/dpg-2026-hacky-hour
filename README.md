@@ -37,7 +37,7 @@ jupyter notebook
 
 <details>
 <summary><strong>Installation using uv</strong></summary>
-You can download and install uv by following the instructions here:  
+If you don't have it installed, you can download and install uv by following the instructions here:  
 
 https://docs.astral.sh/uv/  
 Afterwards, in the folder where this README file is, type:
@@ -53,7 +53,7 @@ uv run jupyter notebook
 
 <details>
 <summary><strong>Installation using conda</strong></summary>
-You can download and install conda by following the instructions here:  
+If you don't have it installed, you can download and install conda by following the instructions here:  
 
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html  
 Afterwards, in the folder where this README file is, type:
